@@ -1,33 +1,30 @@
-I'm learning to code, interested in data analytics.
-This repository is for [data analysis Netology course](https://netology.ru/) I've enrolled in March 2023.
-The course curriculum includes the following technologies and topics mastered by me:
+Я учусь программировать, интересуюсь аналитикой данных.
+Освоенные мной технологии и темы:
 
 1. Python
 2. Pandas
 3. Numpy
 4. Seaborn
 6. Git
-7. Jupiter Notebook
+7. Блокнот Jupiter
 8. Google Colab
 9. SQL
 10. PostgreSQL
-11. Statistics
-12. A/B-tests
+11. Статистика
+12. A/B-тестирование
 13. Tableau
-14. DAU, MAU, ARPU, LTV, Retention, CR and other metrics
-15. Product Development basics
-16. Product Management basics
-17. Soft-skills
+14. DAU, MAU, ARPU, LTV, удержание, CR и другие показатели
+15. Основы разработки продукта
+16. Основы управления продуктом
 
 
-**List of projects:**
-1. [Taxi in NYC](https://github.com/annidkrieteav/data_analysis_learn/blob/main/taxi_in_nyc.ipynb) -- analising NYC taxi orders with Pandas. Read_csv, rename, groupby, agg, query, sort_values, idxmax, idxmin, value_counts, pivot methods were used for **Exploratory Data Analysis**.
-2. [Hotel Bookings](https://github.com/annidkrieteav/data_analysis_learn/blob/main/hotel_bookings.ipynb) -- analising hotel bookings with Pandas. Read_csv, info, rename, groupby, agg, query, sort_values, idxmax, idxmin, value_counts, pivot methods were used for Exploratory Data Analysis. Customers **Churn rate** was calculated.  
-3. [User Logs](https://github.com/annidkrieteav/data_analysis_learn/blob/main/user_logs.ipynb) -- analising customers data. Finding the most popular platform and the most active users. Visualizing data with **Seaborn** distplot, barplot and countplot methods.       
-4. [Taxi in Peru](https://github.com/annidkrieteav/data_analysis_learn/blob/main/taxi_peru.ipynb) -- analising  taxi orders in Peru with Pandas. An Exploratory Data Analysis was performed. Drivers' score, passengers' score, **DAU** and **MAU** metrics were calculated and plotted with Seaborn.   
-5. [Raw Data Handling](https://github.com/annidkrieteav/data_analysis_learn/blob/main/raw_data_handling.ipynb) -- creating dataframe from a set of csv-files stored in various folders. Practicing Python skills to **automate data handling**.  
-6. [Retail in Germany](https://github.com/annidkrieteav/data_analysis_learn/blob/main/retail_in_germany.ipynb) -- having a dataset with purchases of clients from Europe. Count basic **sales statistics** for clients from Germany. Duplicated, drop_duplicates, groupby, agg, query, sort_values, assign, quantile and str methods were used for Exploratory Data Analysis. 
-7. [Error in Transactions Data](https://github.com/annidkrieteav/data_analysis_learn/blob/main/error_in_transaction_data.ipynb) -- we've found and corrected an error while analising a dataset with transactions. Plotting data in logarithmic scale, converting data to datetime format as well as implementing describe, isna, sum, value_counts, groupby, agg, query, sort_values, rename, min, max and **pivot** methods were used for Exploratory Data Analysis.   
-8. [Avocado Price](https://github.com/annidkrieteav/data_analysis_learn/blob/main/avocado_price.ipynb) -- comparing avocado average, simple **moving average** and exponential weighted average price values. Categorizing delay data and labeling it. Plotting results with help of subplots and interactive **Plotly** plots.  
-9. [Ads Campaign](https://github.com/annidkrieteav/data_analysis_learn/blob/main/ads_campaign.ipynb) -- plotting data in logarithmic scale to find the type of data distribution, finding ad_id with an anomalistic number of views. Comparing average and simple moving average views data. Calculating clients' registration to publishing ad conversion rate (**CR**). Categorizing clients' registration data and labeling it. Plotting results with help of interactive Plotly plot.  
-10. [Visits by Browser](https://github.com/annidkrieteav/data_analysis_learn/blob/main/visits_by_browser.ipynb) -- analising web-site visits. Defining proportion of real users and visits by bots. Finding the most popular browser for users and for bots. Bar-plotting results, downloading data using **Google Docs API** and merging it to our dataframe. Read_csv, groupby, agg, query, sort_values, pivot, fillna, assign and merge methods were used for Exploratory Data Analysis.
+**Список проектов:**
+1. [Такси в Нью-Йорке](https://github.com/annidkrieteav/data_analysis_learn/blob/main/taxi_in_nyc.ipynb) — анализ заказов такси в Нью-Йорке с помощью Pandas. Для **исследования данных** использовались методы read_csv, rename, groupby, agg, query, sort_values, idxmax, idxmin, value_counts, pivot.
+2. [Бронирование отелей](https://github.com/annidkrieteav/data_analysis_learn/blob/main/hotel_bookings.ipynb) — анализ бронирования отелей с помощью Pandas. Для исследовательского анализа данных использовались методы read_csv, info, rename, groupby, agg, query, sort_values, idxmax, idxmin, value_counts, pivot. Был рассчитан **коэффициент оттока клиентов**.  
+3. [Пользовательские журналы](https://github.com/annidkrieteav/data_analysis_learn/blob/main/user_logs.ipynb) — анализ данных о клиентах. Поиск самой популярной платформы и самых активных пользователей. Визуализация данных с помощью методов **Seaborn** distplot, barplot и countplot.       
+4. [Такси в Перу](https://github.com/annidkrieteav/data_analysis_learn/blob/main/taxi_peru.ipynb) — анализ заказов такси в Перу с помощью Pandas. Был проведён исследовательский анализ данных. Были рассчитаны и построены с помощью Seaborn показатели для водителей, пассажиров, **DAU** и **MAU**.     
+5. [Розничная торговля в Германии](https://github.com/annidkrieteav/data_analysis_learn/blob/main/retail_in_germany.ipynb) — набор данных с покупками клиентов из Европы. Подсчитайте базовую **статистику продаж** для клиентов из Германии. Для исследовательского анализа данных использовались методы дублирования, удаления дубликатов, группировки, агрегирования, запроса, сортировки значений, присвоения, квантиля и строки. 
+6. [Ошибка в данных о транзакциях](https://github.com/annidkrieteav/data_analysis_learn/blob/main/error_in_transaction_data.ipynb) — мы обнаружили и исправили ошибку при анализе набора данных о транзакциях. Для исследовательского анализа данных мы использовали методы построения графиков в логарифмическом масштабе, преобразования данных в формат даты и времени, а также методы describe, isna, sum, value_counts, groupby, agg, query, sort_values, rename, min, max и **pivot**.   
+7. [Цена авокадо](https://github.com/annidkrieteav/data_analysis_learn/blob/main/avocado_price.ipynb) — сравнение средней цены авокадо, простой **скользящей средней** и экспоненциально взвешенной средней цены. Категоризация данных о задержках и их маркировка. Построение графиков с помощью подзаголовков и интерактивных графиков **Plotly**.  
+8. [Рекламная кампания](https://github.com/annidkrieteav/data_analysis_learn/blob/main/ads_campaign.ipynb) — построение графика в логарифмическом масштабе для определения типа распределения данных, поиск ad_id с аномальным количеством просмотров. Сравнение средних и простых скользящих средних данных о просмотрах. Расчет коэффициента конверсии клиентов в публикации рекламы (**CR**). Категоризация данных о регистрации клиентов и их маркировка. Построение результатов с помощью интерактивного графика Plotly.  
+9. [Посещаемость по браузерам](https://github.com/annidkrieteav/data_analysis_learn/blob/main/visits_by_browser.ipynb) — анализ посещаемости веб-сайта. Определение доли реальных пользователей и посещений ботами. Поиск самого популярного браузера среди пользователей и ботов. Построение гистограмм, загрузка данных с помощью **Google Docs API** и их объединение с нашим фреймом данных. Для исследовательского анализа данных использовались методы read_csv, groupby, agg, query, sort_values, pivot, fillna, assign и merge.
